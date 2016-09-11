@@ -1,0 +1,83 @@
+<% content_for :body_tag do%>
+  <body id="contact-page">
+<%end%>
+
+<!-- PAGE CONTETNT -->
+<section class="contact gl-page-content-section">
+  <div class="gl-inner-section">
+    <div class="container">
+      <div class="row">
+        <!-- Image -->
+        <div class="gl-contact-form-wrapper gl-left-side col-md-6 col-sm-6 col-xs-12">
+          <h3 class="gl-single-title">Send us a message</h3>
+          <%= form_tag("/contact") do %>
+            <p>
+              <label for="email">Name</label>
+              <input name="name" type="text" placeholder="Your Name" id="gl-contact-name"/>
+            </p>
+            <p>
+              <label for="email">Email</label>
+              <input name="email" type="text" placeholder="your@email.com" id="gl-contact-email" />
+            </p>
+            <p>
+              <label for="email">Enquiry</label>
+              <textarea name="enquiry" placeholder="Let us know how we can help.." id="gl-contact-message"></textarea>
+            </p>
+            <input type="submit" value="Submit" class="gl-btn"/>
+          <%end%>
+        </div>
+        <!-- END -->
+
+        <!-- About Text -->
+        <div class="gl-company-addresses-wrapper gl-right-side col-md-6 col-sm-6 col-xs-12">
+          <div class="contact">
+            <h2>Hello</h2>
+            <p>We want your input: questions, bug reports, complaints, praise, feature requests — every little bit helps. Let us know what we can do to improve The Factory Door. 
+            </p>
+          </div>
+          <div class="gl-address-col">
+            
+            <!-- ADDRESSES -->
+            <div class="gl-address">
+              <h3 class="gl-single-title">Head Office (Sydney, Australia)</h3>
+              <ul>
+                <li class="gl-address-location">Unit 1, 1 The Crescent, Kingsgrove NSW 2208</li>
+                <li class="gl-address-phone">0428 987 181</li>
+                <li class="gl-address-email">dan@thefactorydoor.com</li>
+              </ul>
+            </div>
+            <!-- END -->
+           
+            
+          </div>
+
+          <div class="gl-address-col">
+            <!-- ADDRESSES -->
+            <div class="gl-address">
+              <h3 class="gl-single-title">Feedback</h3>
+              <ul>
+                <li class="gl-address-phone"> (02) 8005 0430 </li>
+                <li class="gl-address-email">jason@thefactorydoor.com</li>
+              </ul>
+            </div>
+            <!-- END -->
+
+
+            <!-- ADDRESSES -->
+            <div class="gl-address">
+              <h3 class="gl-single-title">Technical Diffulties</h3>
+              <ul>
+                <li class="gl-address-phone"> (02) 8005 0430 </li>
+                <li class="gl-address-email">jason@thefactorydoor.com</li>
+              </ul>
+            </div>
+            <!-- END -->
+            
+          </div>
+        </div>
+        <!-- About Text End -->
+      </div>
+    </div>
+  </div>
+</section>
+<!-- PAGE CONTETNT END -->
