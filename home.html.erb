@@ -1,0 +1,97 @@
+<!-- HERO IMAGE -->
+<section class="home gl-hero-img-wrapper">
+  <div class="container">
+    <div class="row">
+      <div class="gl-elements-content-wrapper">
+        <div id="typed-strings">
+            <<p>Open the door to <span class="gl-color-text">new customers</span> </p>
+            <p>Open the door to <span class="gl-color-text">new suppliers</span> </p>
+            <p>Open the door to <span class="gl-color-text">Factory Door</span></p>
+        </div>
+        <h2 id="gl-slogan" class="gl-hero-text-heading"></h2>
+        <p class="gl-hero-text-paragraph">A platfrom that provides unequalled transparency for both buyers and suppliers.</p>
+
+        <div class="row" id="user-split-cta">
+          <div class="col-md-6">
+            <h3>Are you a Factory?</h3>
+            <%= link_to "Sign Up", new_user_registration_path, class: "btn btn-primary btn-lg" %>
+          </div>
+          <div class="col-md-6">
+            <h3>Or sourcing product?</h3>
+            <%= link_to "View Factories", factories_path, class: "btn btn-primary btn-lg" %>
+          </div>
+        </div>
+
+        <div class="gl-scroll-down-wrapper">
+          <a href="#gl-next-section" class="gl-scroll-down"><i class="ion-chevron-down"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- HERO IMAGE END -->
+
+<!-- ICON WITH TEXT/SERVICES -->
+<section class="gl-service-section-wrapper gl-section-wrapper" id="gl-next-section">
+  <div class="container">
+    <div class="row">
+      <div class="gl-service-we-offer">
+
+        <!-- ICON WITH TEXT -->
+        <div class="gl-icon-top-with-text col-md-4 col-sm-4 col-xs-12 appear fadeIn" data-wow-duration="1s" data-wow-delay=".3s">
+          <div class="gl-icon-wrapper">
+            <i class="fa fa-search" aria-hidden="true" style="color:#FFFFFF"></i>
+          </div>
+          <h3>Unequalled Transparency</h3>
+          <p>Find all the information you need to make and informed purchasing decision</p>
+        </div>
+        <!-- END -->
+
+        <!-- ICON WITH TEXT -->
+        <div class="gl-icon-top-with-text col-md-4 col-sm-4 col-xs-12 appear fadeIn" data-wow-duration="1s" data-wow-delay=".5s">
+          <div class="gl-icon-wrapper">
+            <i class="fa fa-check" aria-hidden="true" style="color:#FFFFFF"></i>
+          </div>
+          <h3>Only Trusted Suppliers</h3>
+          <p>All suppliers are screened and verified so there is no nasty suprises</p>
+        </div>
+        <!-- END -->
+
+        <!-- ICON WITH TEXT -->
+        <div class="gl-icon-top-with-text col-md-4 col-sm-4 col-xs-12 appear fadeIn" data-wow-duration="1s" data-wow-delay=".7s">
+          <div class="gl-icon-wrapper">
+            <i class="fa fa-usd" aria-hidden="true" style="color:#FFFFFF"></i>
+          </div>
+          <h3>Forming Relationships</h3>
+          <p>Build long lasting business relationships that grow with your business and your success</p>
+        </div>
+      </div>
+      <!-- END -->
+
+    </div>
+  </div>
+</section>
+<!-- ICON WITH TEXT/SERVICES END -->
+
+<!-- HOW IT WORKS -->
+<section class="gl-how-it-works-section gl-custom-section gl-section-wrapper">
+  <div class="container">
+    <div class="row">
+      <div class="gl-custom-sec-content">
+        <h1>How it works ?</h1>
+        <p>Factor Door is an easy to use platform for the commercial venue industry, where buyers and suppliers can form business relationship online through transparent sharing of information and direct lines of communication. </p>
+
+        
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid" id="home-last-container">
+    <div class="row">
+      <div class="gl-custom-image-wrapper">
+        <%= image_tag "how-it-works.png", alt: "Custom Image", class: "gl-lazy" %>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- HOW IT WORKS END -->
